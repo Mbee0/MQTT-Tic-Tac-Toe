@@ -10,9 +10,9 @@
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 // this is setting up the variables for the internet connection
-const char *ssid_Router = "Megan's Iphone";
-const char *password_Router = "LAURENBEE";
-const char *mqtt_server = "34.28.215.180";
+const char *ssid_Router = "YOUR_ROUTER";
+const char *password_Router = "YOUR_PASSWORD";
+const char *mqtt_server = "YOUR_IP_ADDRESS";
 const char *mqtt_subscribe_topic = "transferCoords";
 const char *mqtt_publish_topic = "transferSpots";
 const char *mqtt_publish_topic1 = "transferRatio";
